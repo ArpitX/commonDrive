@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "common drive",
-  "launch_path": "/",
+  "launch_path": "/index.php",
   "description": "Common drive is a notes pooling platform where students can upload or download any type of study material.",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
