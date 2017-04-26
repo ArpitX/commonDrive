@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="Common drive is a notes pooling platform where students can upload or download any type of study material.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>common drive</title>
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
@@ -15,21 +15,33 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Common Drive">
+    <meta name="application-name" content="Common drive">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Common Drive">
+    <meta name="apple-mobile-web-app-title" content="Common drive">
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <meta name="msapplication-TileColor" content="#40bcff">
 
     <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#2F3BA2">
+    <meta name="theme-color" content="#40bcff">
+
+    <!-- Social -->
+    <meta property="og:title" content="Common Drive">
+    <meta property="og:description" content="Common drive is a notes pooling platform where students can upload or download any type of study material.">
+    <meta property="og:image" content="/images/social/cmndrv.png">
+    <meta property="og:url" content="https://commondrive.net">
+    <meta name="twitter:title" content="Common Drive">
+    <meta name="twitter:description" content="Common drive is a notes pooling platform where students can upload or download any type of study material.">
+    <meta name="twitter:image" content="/images/social/cmndrv.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cmndrv">
+    <meta name="twitter:creator" content="@arpitbansalx">
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="/css/grid.css">
