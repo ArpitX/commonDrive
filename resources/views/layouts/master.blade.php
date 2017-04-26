@@ -29,7 +29,7 @@
     <meta name="msapplication-TileColor" content="#40bcff">
 
     <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#40bcff">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Social -->
     <meta property="og:title" content="Common Drive">
