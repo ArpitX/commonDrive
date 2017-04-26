@@ -586,3 +586,13 @@ footer{
         display: none;
     }
 }
+
+.at-expanding-share-button-toggle-bg{
+    span{
+    background-color: $lightblue !important;
+    }
+}
+#at-expanding-share-button{
+    right: 20px;
+    bottom: 20px;
+}
