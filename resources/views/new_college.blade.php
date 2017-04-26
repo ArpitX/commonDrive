@@ -11,7 +11,7 @@
         Add your college
     </div>
     <div class="text">
-        We would love to bring our service to your college. You just have to email details about your college to <a href="#">common@commondrive.xyz</a><br>
+        We would love to bring our service to your college. You just have to email details about your college to <a href="mailto:cmndrv@gmail.com?Subject=Add%20an%20Institute" target="_top">cmndrv@gmail.com</a><br>
         We hope you enjoy common drive :)
     </div>
 
