@@ -13,6 +13,7 @@
 
 Route::get('/', 'InstitutesController@landing')->name('home');
 Route::get('/institutes', 'InstitutesController@landing');
+Route::get('/all-institutes', 'InstitutesController@index');
 Route::get('/institutes/{id}', 'InstitutesController@show');
 Route::post('/institutes', 'InstitutesController@view');
 Route::post('/institutes/{id}/subject', 'SubjectsController@store');

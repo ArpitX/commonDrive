@@ -567,6 +567,25 @@ footer{
     }
 }
 
+.all-institutes-page{
+    padding: 30px;
+    padding-top: 0;
+    div.institutes{
+        margin-top: 10px;
+        a{
+            padding-left: 10px;
+            font-size: 22px;
+            text-transform: capitalize;
+        }
+    }
+    a.add-college{
+        margin-top: 10px;
+        font-size: 22px;
+        color: $green;
+        padding-left: 10px;
+    }
+}
+
 @media (max-width: 900px){
     .landing-page{
         width: 80%;
