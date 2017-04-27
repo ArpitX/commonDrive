@@ -29,17 +29,17 @@
     <meta name="msapplication-TileColor" content="#40bcff">
 
     <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#3f51b5">
 
     <!-- Social -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Common Drive">
-    <meta name="twitter:description" content="Common drive is a notes pooling platform where students can upload or download any type of study material.">
-    <meta name="twitter:image" content="/images/social/cmndrv.png">
     <meta property="og:title" content="Common Drive">
     <meta property="og:description" content="Common drive is a notes pooling platform where students can upload or download any type of study material.">
     <meta property="og:image" content="/images/social/cmndrv.png">
     <meta property="og:url" content="https://commondrive.net">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Common Drive">
+    <meta name="twitter:description" content="@cmndrv is a notes pooling platform where students can upload or download any type of study material.">
+    <meta name="twitter:image" content="/images/social/cmndrv.png">
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="/css/grid.css">
