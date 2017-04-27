@@ -12,12 +12,12 @@
 */
 
 Route::get('/', 'InstitutesController@landing')->name('home');
-Route::get('/inst', 'InstitutesController@landing');
-Route::get('/inst/{id}', 'InstitutesController@show');
-Route::post('/inst', 'InstitutesController@view');
-Route::post('/inst/{id}/subject', 'SubjectsController@store');
-Route::get('/inst/{inst}/subject/{subject}', 'SubjectsController@show');
-Route::post('/inst/{inst}/subject/{subject}/upload', 'FilesController@store');
+Route::get('/institutes', 'InstitutesController@landing');
+Route::get('/institutes/{id}', 'InstitutesController@show');
+Route::post('/institutes', 'InstitutesController@view');
+Route::post('/institutes/{id}/subject', 'SubjectsController@store');
+Route::get('/institutes/{inst}/subject/{subject}', 'SubjectsController@show');
+Route::post('/institutes/{inst}/subject/{subject}/upload', 'FilesController@store');
 Route::get('/new-institute', 'InstitutesController@newCollege');
 
 //Auth::routes()

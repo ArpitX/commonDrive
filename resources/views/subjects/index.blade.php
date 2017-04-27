@@ -13,7 +13,7 @@
         @if(!Auth::check())
         <small>You need to sign in to upload any file.</small>
         @endif
-        <form class="" action="/inst/{{$inst[0]->id}}/subject/{{$subject[0]->id}}/upload" method="post" enctype="multipart/form-data">
+        <form class="" action="/institutes/{{$inst[0]->id}}/subject/{{$subject[0]->id}}/upload" method="post" enctype="multipart/form-data">
             {{ csrf_field() }}
             <input type="text" name="name" placeholder="Enter file name" required>
             <input type="file" name="newfile" required>

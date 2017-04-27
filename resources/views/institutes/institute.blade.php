@@ -14,7 +14,7 @@
         @if(!Auth::check())
         <small>You need to sign in to create a subject folder.</small>
         @endif
-        <form class="" action="/inst/{{$institute->id}}/subject" method="post" >
+        <form class="" action="/institutes/{{$institute->id}}/subject" method="post" >
             {{ csrf_field() }}
             <input type="text" name="subject" placeholder="Enter Subject Name" required>
             <button class="btn-default" type="submit">Create</button>
@@ -23,7 +23,7 @@
     <div class="subjects">
         <h2>Subjects</h2>
         @foreach ($subjects as $subject)
-            <a href="/inst/{{$institute->id}}/subject/{{$subject->id}}">{{$subject->name}}</a>
+            <a href="/institutes/{{$institute->id}}/subject/{{$subject->id}}">{{$subject->name}}</a>
         @endforeach
     </div>
 </div>

@@ -19,7 +19,7 @@ class InstitutesController extends Controller
     public function show($id){
         $institute = Institute::find($id);
         $subjects = Subject::where('inst_id', $id)->get();
-        return view('institutes.inst', compact('institute','subjects'));
+        return view('institutes.institute', compact('institute','subjects'));
     }
     public function view(){
         $id = request('instlist');
@@ -28,7 +28,7 @@ class InstitutesController extends Controller
         }
         $institute = Institute::find($id);
         $subjects = Subject::where('inst_id', $id)->get();
-        return view('institutes.inst', compact('institute','subjects'));
+        return view('institutes.institute', compact('institute','subjects'));
     }
     public function newCollege(){
         return view('new_college');

@@ -23,7 +23,7 @@
         @endforeach
         <option value="new-institute">Add your college</option>
         </select>
-        <form class="" id="instform" action="/institute" method="post">
+        <form class="" id="instform" action="/institutes" method="post">
             {{ csrf_field() }}
             <button type="submit">GO</button>
         </form>
