@@ -317,6 +317,11 @@ input{
                 outline: none;
             }
         }
+        @-moz-document url-prefix() {
+            select {
+                padding: 0px 25px !important;
+            }
+        }
         form{
             padding-top: 30px;
             button{

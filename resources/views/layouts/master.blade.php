@@ -47,7 +47,7 @@
     <link rel="stylesheet" href="/css/app.css">
 
     <!--scripts-->
-    <script src="/js/libraries/jquery-3.0.0.min.js"></script>
+    <!-- <script src="/js/libraries/jquery-3.0.0.min.js"></script> -->
 
   </head>
   <body>
@@ -55,6 +55,7 @@
 
     @yield('content')
 
+    <script src="/js/libraries/jquery-3.0.0.min.js"></script>
     <script src="/js/app.js"></script>
     <script type="text/javascript">
     function openDrawer(){
