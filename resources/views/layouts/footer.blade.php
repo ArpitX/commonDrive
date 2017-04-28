@@ -11,7 +11,8 @@
     <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
     <!-- <a href=""><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> -->
     <a href=""><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
-    <a href=""><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a>
+    <!-- <a href=""><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a> -->
     <!-- <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a> -->
   </div>
 
