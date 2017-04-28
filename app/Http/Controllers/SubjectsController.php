@@ -16,7 +16,7 @@ class SubjectsController extends Controller
             $subject->inst_id = $id;
             $subject->user_id = auth()->id();
             $subject->save();
-            return redirect('/inst/'.$id);
+            return redirect('/institutes/'.$id);
         }else {
             return view('auth.login');
         }
