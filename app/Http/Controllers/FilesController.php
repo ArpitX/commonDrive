@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
 use App\File;
+use App\Links;
 
 class FilesController extends Controller
 {
@@ -24,6 +25,20 @@ class FilesController extends Controller
             //return $url;
         }
         else {
+            return view('auth.login');
+        }
+    }
+    public function addLink($inst_id,$sub_id){
+        if(auth()->check()){
+            $link = new Links;
+            $link->name = request('name');
+            $link->url = request('newurl');
+            $link->subject_id = $sub_id;
+            $link->user_id = auth()->id();
+            $link->save();
+            return view('upload.newlink');
+        }
+        else{
             return view('auth.login');
         }
     }

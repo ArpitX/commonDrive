@@ -49,7 +49,7 @@ small{
     margin-top: 5px;
 }
 input{
-    &[type="text"],&[type="email"],&[type="password"]{
+    &[type="text"],&[type="email"],&[type="password"],&[type="url"]{
         font-size: 18px;
         padding: 10px;
         border: 2px solid $grey;
@@ -434,7 +434,7 @@ div.svg-container{
         font-size: 35px;
         text-transform: capitalize;
     }
-    .upload{
+    .upload,.add-link{
         margin-top: 20px;
         input{
             &[type="text"]{
@@ -455,6 +455,10 @@ div.svg-container{
                     border-color: $lightblue;
                     color: $lightblue;
                 }
+            }
+            &[type="url"]{
+                width: 100%;
+                margin-top: 10px;
             }
         }
         button{

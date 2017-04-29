@@ -19,6 +19,7 @@ Route::post('/institutes', 'InstitutesController@view');
 Route::post('/institutes/{id}/subject', 'SubjectsController@store');
 Route::get('/institutes/{inst}/subject/{subject}', 'SubjectsController@show');
 Route::post('/institutes/{inst}/subject/{subject}/upload', 'FilesController@store');
+Route::post('/institutes/{inst}/subject/{subject}/add-link', 'FilesController@addLink');
 Route::get('/new-institute', 'InstitutesController@newCollege');
 
 //Auth::routes()

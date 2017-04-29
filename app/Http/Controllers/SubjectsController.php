@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Subject;
 use App\File;
+use App\Links;
 
 class SubjectsController extends Controller
 {
@@ -27,7 +28,7 @@ class SubjectsController extends Controller
         $subject = Subject::where('id', $subjectId)->get();
         //$files = \App\File::where('subject_id', $subjectId)->get();
         $files = DB::table('users')->join('files', 'users.id', '=', 'files.user_id')->where('subject_id', $subjectId)->select('files.*','users.name as username')->get();
-
-        return view('subjects.index', compact('subject','inst','files'));
+        $links = DB::table('users')->join('links', 'users.id', '=', 'links.user_id')->where('subject_id', $subjectId)->select('links.*','users.name as username')->get();
+        return view('subjects.index', compact('subject','inst','files','links'));
     }
 }
