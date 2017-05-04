@@ -44,7 +44,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/app_temp.css">
 
     <!--scripts-->
     <!-- <script src="/js/libraries/jquery-3.0.0.min.js"></script> -->
