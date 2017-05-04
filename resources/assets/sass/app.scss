@@ -434,6 +434,9 @@ div.svg-container{
         font-size: 35px;
         text-transform: capitalize;
     }
+    .container-fluid{
+        padding: 0;
+    }
     .upload,.add-link{
         margin-top: 20px;
         input{
@@ -442,6 +445,7 @@ div.svg-container{
                 margin-top: 10px;
             }
             &[type="file"]{
+                width: 100%;
                 max-width: 100%;
                 margin-top: 10px;
                 font-size: 14px;
@@ -498,6 +502,22 @@ div.svg-container{
             }
         }
 
+    }
+    .upload-buttons{
+        margin-top: 15px;
+        a{
+            border-color: $lightblue;
+            color: $white;
+            background: $lightblue;
+            padding: 15px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            &:hover{
+                color: $lightblue;
+                background: $white;
+            }
+        }
     }
 }
 

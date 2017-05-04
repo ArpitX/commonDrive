@@ -62,7 +62,17 @@
             $('.drawer-handle').toggleClass('open');
             $('.drawer-space').toggleClass('open');
     }
+    function scrollpage(str){
+        $('html,body').animate({
+          scrollTop: $(str).offset().top},
+          500
+        );
+      }
+      function hello(){
+        alert("hello");
+      }
     </script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59009e9045159ccf"></script> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+    <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59009e9045159ccf"></script>  -->
   </body>
 </html>
