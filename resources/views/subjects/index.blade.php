@@ -35,7 +35,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="upload" id="upload">
-                    <h2>Upload files</h2>
+                    <h2>Upload Files</h2>
                     @if(!Auth::check())
                     <small>You need to sign in to upload any file.</small>
                     @endif
@@ -50,7 +50,7 @@
             </div>
             <div class="col-xs-12 col-md-6">
                 <div class="add-link">
-                    <h2>Add Url</h2>
+                    <h2>Add Files Using Url</h2>
                     @if(!Auth::check())
                     <small>You need to sign in to add any url.</small>
                     @endif
