@@ -6,7 +6,7 @@
 
 
 <div class="icons">
-    <a href="https://twitter.com/arpitbansalx" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/arp_ban" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
     <!-- <a href=""><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> -->
